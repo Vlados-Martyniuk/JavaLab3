@@ -1,7 +1,15 @@
+/**
+ * Головний клас програми для демонстрації роботи з об'єктами "Човен".
+ */
 import java.util.Arrays;
 import java.util.Comparator;
 
 public class Main {
+    /**
+     * Головний метод програми.
+     * 
+     * @param args аргументи командного рядка
+     */
     public static void main(String[] args) {
         Boat[] boats = {
                 new Boat("Вірджинія", "Крейсер", 30, 10.5, 179.0),
